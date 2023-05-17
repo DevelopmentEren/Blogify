@@ -1,0 +1,73 @@
+body {
+    min-width: 300px;
+    background-image: url("https://unsplash.it/4096/2160/");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .card {
+    max-width: 400px;
+    min-width: 300px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  .card-title {
+    font-size: 2.5rem;
+    color: #333;
+  }
+  
+  .form-floating label {
+    color: #333;
+    font-size: 1rem;
+  }
+  
+  .form-floating input.form-control {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #333;
+    box-shadow: none;
+  }
+  
+  .form-floating input.form-control:focus {
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #2d9cdb;
+    box-shadow: none;
+  }
+  
+  .btn-primary {
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: #2d9cdb;
+    border-color: #2d9cdb;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1a87b9;
+    border-color: #1a87b9;
+  }
+  
+  .text-decoration-none {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .text-decoration-none:hover {
+    text-decoration: underline;
+  }
+  
+  .form-floating label {
+    color: #333;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-floating input.form-control:focus ~ label,
+  .form-floating input.form-control:valid ~ label {
+    transform: translate(0, -0.5rem) scale(0.8);
+    opacity: 0.5;
+  }

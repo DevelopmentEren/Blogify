@@ -1,0 +1,21 @@
+@{
+    ViewData["Title"] = "Hakkimizda";
+}
+@model Bildiri
+
+<h3 class="mt-5 text-center">Blogify Hakkında</h3>
+
+<p class="text-center">
+    Blogify sayfası olarak siz değerli kullanıcılarımızı saygıyla selamlıyoruz. <br>
+    Blogify sayfası bloglarınızı diğer insanlarla paylaşıp sosyalleşebileceğiniz bir web sayfasıdır. <br>
+    Blogify da blog paylaşabilir onları düzenleyebilir ve silmek isterseniz silebilirsinizde. <br>
+    Diğer kullanıcıların profillerine gidip onların paylaştıkları bloglara bakabilir ve onları okuyabilirsiniz. <br>
+    Eğer tüm blogları görmek istemezseniz ana sayfamızdaki üst menüden diğer seçenekleri seçerseniz seçtiğiniz kategoride blogları görebilirsiniz. <br>
+    <br><br>
+    Eğer bir problemle karşılaştıysanız veya bir öneriniz varsa lütfen bizimle iletişime geçiniz. <br>
+    Karşılaştığınız hatayı veya site için yapacağınız öneriyi alttaki mesaj kutucuğuna tanımlayarak yetkilileri bilgilendirebilirsiniz. <br>
+    <form method="post" asp-action="hakkimizda">
+        <textarea maxlength="1000" minlenght="30" style="resize: none;width:100%;min-height:200px;" placeholder="Mesajınızı buraya yazınız" asp-for="Mesaj"></textarea>
+        <button type="submit" class="btn btn-success d-block mx-auto">Yetkililere İlet</button>
+    </form>
+</p>

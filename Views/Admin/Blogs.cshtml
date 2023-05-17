@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "Blogs";
+    Layout="_AdminLayout";
+}
+@model List<Blog>
+
+<h3>Kullanıcı Bilgileri</h3>
+<span>Kullanıcı Sayısı : </span><span>@Model.Count()</span>
+
+<table class="table-dark table-hover table table-striped">
+    <tr>
+        <th>Blog Resim</th>
+        <th>Blog Id</th>
+        <th>Blog Başlık</th>
+        <th>Blog Kategori</th>
+        <th>Blog Açıklama</th>
+        <th>Blogu Yazan Kişi</th>
+        <th>İşlemler</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td><img src="@item.blogImage" alt="" style="max-width:100px"></td>
+            <td>@item.Id</td>
+            <td>@item.blogTitle</td>
+            <td>@item.blogCategory</td>
+            <td>@item.blogDescription.Substring(0,15)...</td>
+            <td>@item.WriterName</td>
+            <td><a class="btn btn-danger" asp-action="BRemove" asp-route-id="@item.Id">Sil</a></td>
+        </tr>
+    }
+</table>

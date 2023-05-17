@@ -1,0 +1,32 @@
+@{
+    ViewData["Title"] = "OS";
+    Layout = "_AdminLayout";
+}
+@model List<Bildiri>
+
+<h3>Öneri & Şikayet Bilgileri</h3>
+<span>Öneri & Şikayet Sayısı : </span><span>@Model.Count()</span>
+
+<table class="table-dark table-hover table table-striped">
+    <tr class="text-center">
+        <th>Bildiri Id</th>
+        <th>Bildiri Mesajı</th>
+        <th>Bildiri Yazar Adı</th>
+        <th>İşlemler</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        @if (item.Okundumu == false)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Mesaj.Substring(0,15)...</td>
+                <td>@item.WriterName</td>
+                <td><a class="btn btn-danger float-start w-50" asp-action="Bak" asp-route-id="@item.Id">Mesaja Bak</a>
+                    <a class="btn btn-success w-50" asp-action="Okundu" asp-route-id="@item.Id">Okundu Olarak İşaretle</a>
+                </td>
+            </tr>
+        }
+    }
+</table>

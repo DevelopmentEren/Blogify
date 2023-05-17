@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "MyBlog";
+}
+@model List<Blog>
+
+@if (Model.Any())
+{
+    <div class="row py-5 justify-content-evenly">
+    @foreach (var item in Model)
+{
+    <div class="card col-lg-4 col-md-6 col-sm-12 my-2">
+        <img class="card-img-top" src="@item.blogImage" alt="">
+        <div class="card-body">
+            <h4 class="card-title">@item.blogTitle</h4>
+            <p class="card-text">@item.blogDescription.Substring(0,15)...</p>
+        </div>
+        <div class="card-footer">
+            <a asp-action="Remove" asp-route-id="@item.Id" class="btn btn-danger">Sil</a>
+            <a asp-action="Update" asp-route-id="@item.Id" class="btn btn-success">Güncelle</a>
+        </div>
+    </div>
+}
+</div>
+}
+
+@if (!Model.Any())
+{
+    <p class="my-5 h3">Hiçbir blogunuz bulunmamaktadır!</p>
+}

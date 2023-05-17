@@ -1,0 +1,27 @@
+@{
+    ViewData["Title"] = "Users";
+    Layout="_AdminLayout";
+}
+@model List<User>
+
+<h3>Kullanıcı Bilgileri</h3>
+<span>Kullanıcı Sayısı : </span><span>@Model.Count()</span>
+
+<table class="table-dark table-hover table table-striped">
+    <tr>
+        <th>Kullanıcı Id</th>
+        <th>Kullanıcı Adı</th>
+        <th>Kullanıcı Email</th>
+        <th>İşlemler</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Nickname</td>
+            <td>@item.Email</td>
+            <td><a class="btn btn-danger" asp-action="URemove" asp-route-id="@item.Id">Sil</a></td>
+        </tr>
+    }
+</table>

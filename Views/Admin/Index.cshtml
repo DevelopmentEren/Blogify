@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "Index";
+    Layout="_AdminLayout";
+}
+@model BlogifyContext
+
+<h1 class="mt-5">Bilgiler</h1>
+
+<p class="fs-5">Kullanıcı Sayısı : <span style="color:red;">@Model.Users.Count()</span></p>
+<p class="fs-5">Blog Sayısı : <span style="color:green;">@Model.Blogs.Count()</span></p>
+<p class="fs-5">Öneri & Şikayetlerin Sayısı : <span style="color:blue;">@Model.Bildiris.Count()</span></p>

@@ -1,0 +1,349 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Blogify.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Blogify.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\css\\all.css",
+      "PackagePath": "staticwebassets\\css\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\css\\loginregister.css",
+      "PackagePath": "staticwebassets\\css\\loginregister.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\images\\2c3df077-e4e0-47da-b716-4745ec25350a.png",
+      "PackagePath": "staticwebassets\\images\\2c3df077-e4e0-47da-b716-4745ec25350a.png"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\images\\3e83f341-0f5e-4354-83e5-899e9eb87c6a.png",
+      "PackagePath": "staticwebassets\\images\\3e83f341-0f5e-4354-83e5-899e9eb87c6a.png"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\images\\6e145d49-adec-429c-b6b2-891284343ef2.png",
+      "PackagePath": "staticwebassets\\images\\6e145d49-adec-429c-b6b2-891284343ef2.png"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\images\\81606648-283a-4363-922c-74a83b541311.png",
+      "PackagePath": "staticwebassets\\images\\81606648-283a-4363-922c-74a83b541311.png"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\images\\a7fe235b-9aeb-48e0-911e-7e13a8863cdf.png",
+      "PackagePath": "staticwebassets\\images\\a7fe235b-9aeb-48e0-911e-7e13a8863cdf.png"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\images\\aee22eb2-6249-4d74-ba6c-a2dff1103103.png",
+      "PackagePath": "staticwebassets\\images\\aee22eb2-6249-4d74-ba6c-a2dff1103103.png"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\images\\d3c48460-c8c6-4c6f-ab3b-ea177cb9ae07.png",
+      "PackagePath": "staticwebassets\\images\\d3c48460-c8c6-4c6f-ab3b-ea177cb9ae07.png"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\images\\e75d0367-7d23-4bfd-9fff-b5cd0abf4733.png",
+      "PackagePath": "staticwebassets\\images\\e75d0367-7d23-4bfd-9fff-b5cd0abf4733.png"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\img\\Diğerdefault.jpg",
+      "PackagePath": "staticwebassets\\img\\Diğerdefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\img\\Dünyadefault.jpg",
+      "PackagePath": "staticwebassets\\img\\Dünyadefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\img\\Günceldefault.jpg",
+      "PackagePath": "staticwebassets\\img\\Günceldefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\img\\Seyahatdefault.jpg",
+      "PackagePath": "staticwebassets\\img\\Seyahatdefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\img\\Spordefault.jpg",
+      "PackagePath": "staticwebassets\\img\\Spordefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\img\\Teknolojidefault.jpg",
+      "PackagePath": "staticwebassets\\img\\Teknolojidefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\img\\Türkiyedefault.jpg",
+      "PackagePath": "staticwebassets\\img\\Türkiyedefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\img\\Yemekdefault.jpg",
+      "PackagePath": "staticwebassets\\img\\Yemekdefault.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\js\\all.js",
+      "PackagePath": "staticwebassets\\js\\all.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\js\\fontawesome.js",
+      "PackagePath": "staticwebassets\\js\\fontawesome.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\mrere\\Desktop\\Blogify\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Blogify.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Blogify.props",
+      "PackagePath": "build\\Blogify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Blogify.props",
+      "PackagePath": "buildMultiTargeting\\Blogify.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Blogify.props",
+      "PackagePath": "buildTransitive\\Blogify.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

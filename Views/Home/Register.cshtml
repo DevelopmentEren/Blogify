@@ -1,0 +1,46 @@
+﻿@{
+    Layout=null;
+}
+@model User
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blogify - Kayıt Sayfası</title>
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="~/css/loginregister.css">
+  
+</head>
+<body>
+  <div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title text-center mb-4">Kayıt Ol</h2>
+        <form method="post">
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control" id="login-email" placeholder="E-posta Adresi" required asp-for="Email">
+            <label for="login-email">E-posta Adresi</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="login-nickname" placeholder="Kullanıcı Adı" required asp-for="Nickname">
+            <label for="login-nickname">Kullanıcı Adı</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="login-password" placeholder="Şifre" required asp-for="Password">
+            <label for="login-password">Şifre</label>
+          </div>
+          <button type="submit" class="btn btn-primary w-100 mb-3">Kayıt Ol</button>
+        </form>
+        <div class="text-center mt-3">
+          Blogify hesabın var mı? <a asp-controller="home" asp-action="login" class="text-decoration-none">Giriş Yap</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JavaScript -->
+  <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

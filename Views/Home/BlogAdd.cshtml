@@ -1,0 +1,33 @@
+@{
+    ViewData["Title"] = "BlogAdd";
+}
+@model blogadd
+
+<form method="post" class="my-5" enctype="multipart/form-data">
+    <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="blog-title" placeholder="Blog Başlığı" required asp-for="blogTitle" maxlength="23">
+        <label for="blog-title">Blog Başlığı</label>
+    </div>
+    <div class="form-floating mb-3">
+        <div class="form-group">
+          <label>Kategori Seçiniz</label>
+          <select class="form-control" asp-for="blogCategory">
+            <option>Diğer</option>
+            <option>Seyahat</option>
+            <option>Spor</option>
+            <option>Teknoloji</option>
+            <option>Yemek</option>
+            <option>Dünya</option>
+            <option>Türkiye</option>
+            <option>Güncel</option>
+          </select>
+        </div>
+    </div>
+    <div class="form-floating mb-3">
+        <input type="file" asp-for="blogImage">
+    </div>
+    <div class="form-floating mb-3">
+        <textarea rows="10" required style="width:100%;resize: none;" minlength="30" maxlength="1000" asp-for="blogDescription"></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary w-100 mb-3">Blog Paylaş</button>
+</form>

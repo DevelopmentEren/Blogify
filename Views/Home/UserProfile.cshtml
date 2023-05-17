@@ -1,0 +1,29 @@
+@{
+    ViewData["Title"] = "UserProfile";
+}
+@model List<Blog>
+
+<div class="container-fluid my-3">
+    <img src="~/img/user.png" alt="" class="img-fluid rounded-circle float-start me-2" style="width: 50px;">
+    <p class="h4 d-inline" style="line-height: 50px;"></p>
+</div>
+<hr>
+
+<div class="row justify-content-evenly">
+@foreach(var item in Model)
+{
+    <p class="yazi" style="display: none;">@item.WriterName</p>
+    <a class="card col-lg-3 col-md-4 col-sm-12 my-2 btn" asp-action="BlogWatch" asp-controller="Home" asp-route-id="@item.Id">
+        <img class="card-img-top" src="@item.blogImage" alt="">
+        <div class="card-body">
+            <h3 class="card-title h3">@item.blogTitle</h3>
+            <p class="card-text">@item.blogDescription.Substring(0,15)...</p>
+        </div>
+    </a>
+}
+</div>
+
+    <script>
+        var name=document.querySelector(".yazi").innerHTML;
+        document.querySelector(".h4").innerHTML=name;
+    </script>

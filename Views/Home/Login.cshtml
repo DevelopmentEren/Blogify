@@ -1,0 +1,42 @@
+﻿@{
+    Layout=null;
+}
+@model User
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Blogify - Giriş Sayfası</title>
+  <!-- Bootstrap 5 CSS -->
+  <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="~/css/loginregister.css">
+  
+</head>
+<body>
+  <div class="container-fluid vh-100 d-flex justify-content-center align-items-center">
+    <div class="card">
+      <div class="card-body">
+        <h2 class="card-title text-center mb-4">Giriş Yap</h2>
+        <form method="post">
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control" id="login-email" placeholder="Kullanıcı Adı" required asp-for="Nickname">
+            <label for="login-email">Kullanıcı Adı</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="password" class="form-control" id="login-password" placeholder="Şifre" required asp-for="Password">
+            <label for="login-password">Şifre</label>
+          </div>
+          <button type="submit" class="btn btn-primary w-100 mb-3">Giriş Yap</button>
+        </form>
+        <div class="text-center mt-3">
+          Blogify hesabın yok mu? <a asp-controller="home" asp-action="register" class="text-decoration-none">Kayıt Ol</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap 5 JavaScript -->
+  <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
