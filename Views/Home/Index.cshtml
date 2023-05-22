@@ -104,7 +104,15 @@
             <a class="card-img-top h-75" style="max-height:70%;" asp-action="BlogWatch" asp-controller="Home" asp-route-id="@item.Id"><img
                     src="@item.blogImage" style="max-height:100%;" class="w-100"></a>
             <a class="card-body btn" asp-action="BlogWatch" asp-controller="Home" asp-route-id="@item.Id">
-                <h2 class="card-title mb-4">@item.blogTitle</h2>
+                <h2 class="card-title mb-4">@if (@item.blogTitle.Count()>19)
+                {
+                  @item.blogTitle.Substring(0,19) @:...
+                }
+                @if (@item.blogTitle.Count()<=19)
+                {
+                  @item.blogTitle
+                }
+                </h2>
                 @if (item.Id % 2 == 0 && item.Id % 3 != 0)
                 {
                     <p><span class="badge bg-info me-3">@item.blogCategory</span>@item.blogDescription.Substring(0,20)...</p>
